@@ -1,7 +1,36 @@
 ---
-title: "website"
+title: "Welcome to Your Documentation Site"
 ---
 
-This is a Quarto website.
+## About This Template
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+This is a Quarto website template with a clean, modern design inspired by Claude AI's aesthetic. It features:
+
+- **Pure white backgrounds** with warm orange (#C15F3C) accents
+- **Dual branding** support (client logo + your logo)
+- **Responsive sidebar navigation**
+- **Optimized grid layout** for efficient space usage
+- **No grey borders** for a modern, clean look
+
+## Quick Start
+
+1. **Edit this page** (`index.qmd`) with your own content
+2. **Add new pages** by creating `.qmd` files
+3. **Update navigation** in `_quarto.yml` under `sidebar: contents:`
+4. **Customize branding** - see the Customization page
+
+## Next Steps
+
+- Visit **Customization** to learn how to personalize this template
+- Visit **Styling** to understand the theme system
+- Delete these instructional pages when you're ready to add your own content
+
+## Preview Your Site
+
+Run this command to preview locally:
+
+```bash
+quarto preview
+```
+
+Your site will be available at http://localhost:4200

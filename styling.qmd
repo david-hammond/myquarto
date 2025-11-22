@@ -1,0 +1,83 @@
+---
+title: "Styling Guide"
+---
+
+## Theme Files
+
+This template uses two styling files:
+
+### claude-theme.scss
+The main theme file with color palette and component styling. Edit this to change:
+
+- **Colors**: Modify SCSS variables at the top
+- **Component styles**: Sidebar, navbar, buttons, tables, callouts
+
+```scss
+// Change the primary color
+$claude-orange: #C15F3C;  // Replace with your brand color
+```
+
+### styles.css
+Contains specific overrides and fixes. You usually won't need to edit this unless you want to:
+
+- Adjust spacing
+- Override specific Quarto defaults
+- Add custom CSS rules
+
+## Color Palette
+
+The template uses these colors:
+
+| Variable | Color | Usage |
+|----------|-------|-------|
+| `$claude-orange` | #C15F3C | Primary accent color |
+| `$claude-white` | #FFFFFF | Backgrounds |
+| `$body-color` | #2C2C2C | Text color |
+
+## Changing Colors
+
+Edit `claude-theme.scss` and update the SCSS variables:
+
+```scss
+/*-- scss:defaults --*/
+
+$claude-orange: #YOUR-COLOR;  // Your brand color
+$primary: $claude-orange;
+```
+
+## Advanced Customization
+
+### Add a Custom CSS Class
+
+In `claude-theme.scss`, add custom rules:
+
+```scss
+.my-custom-class {
+  background-color: $claude-orange;
+  padding: 1rem;
+  border-radius: 6px;
+}
+```
+
+Then use it in your content:
+
+```markdown
+::: {.my-custom-class}
+This content has custom styling
+:::
+```
+
+### Modify Component Spacing
+
+Edit spacing values in `claude-theme.scss`:
+
+```scss
+main {
+  padding: 2rem 3rem;  // Adjust content padding
+}
+```
+
+## Resources
+
+- [Quarto HTML Theming](https://quarto.org/docs/output-formats/html-themes.html)
+- [SCSS Documentation](https://sass-lang.com/documentation/)
