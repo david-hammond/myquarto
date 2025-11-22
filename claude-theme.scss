@@ -47,13 +47,13 @@ body {
 // Navbar
 .navbar {
   background-color: $navbar-bg !important;
-  border-bottom: 1px solid rgba($claude-warm-gray, 0.2);
+  border-bottom: none;
 }
 
 // Sidebar
 .sidebar {
   background-color: $sidebar-bg;
-  border-right: 1px solid rgba($claude-warm-gray, 0.2);
+  border-right: none;
 
   nav a {
     color: $sidebar-fg;

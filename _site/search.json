@@ -436,5 +436,40 @@
       "Documentation",
       "Overview"
     ]
+  },
+  {
+    "objectID": "template.html",
+    "href": "template.html",
+    "title": "Welcome to Your Documentation Site",
+    "section": "",
+    "text": "This is your new documentation site built with the Claude-themed template."
+  },
+  {
+    "objectID": "template.html#getting-started",
+    "href": "template.html#getting-started",
+    "title": "Welcome to Your Documentation Site",
+    "section": "",
+    "text": "This is your new documentation site built with the Claude-themed template."
+  },
+  {
+    "objectID": "template.html#whats-included",
+    "href": "template.html#whats-included",
+    "title": "Welcome to Your Documentation Site",
+    "section": "What’s Included",
+    "text": "What’s Included\nThis template provides:\n\nClaude AI Design: Warm, inviting color palette inspired by Claude’s desktop app\nDual Branding: Client logo in navbar, agency logo in footer\nSidebar Navigation: Easy-to-navigate documentation structure\nSample Pages: Pre-built pages to get you started quickly"
+  },
+  {
+    "objectID": "template.html#customization",
+    "href": "template.html#customization",
+    "title": "Welcome to Your Documentation Site",
+    "section": "Customization",
+    "text": "Customization\n\nUpdate Your Logos\nReplace the placeholder logos with your own:\n\nAdd your client logo as wv.png\nAdd your agency logo as iep.png\n\n\n\nModify the Site\nEdit _quarto.yml to customize:\n\nSite title\nNavigation structure\nFooter links\nTheme colors\n\n\n\nAdd Content\nCreate new .qmd files for your documentation pages and add them to the sidebar in _quarto.yml."
+  },
+  {
+    "objectID": "template.html#next-steps",
+    "href": "template.html#next-steps",
+    "title": "Welcome to Your Documentation Site",
+    "section": "Next Steps",
+    "text": "Next Steps\n\nUpdate the site title in _quarto.yml\nReplace the sample content in the existing pages\nAdd your own documentation pages\nPreview with quarto preview\nPublish with quarto publish\n\nHappy documenting!"
   }
 ]

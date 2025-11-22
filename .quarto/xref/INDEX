@@ -19,5 +19,8 @@
   },
   "blog.qmd": {
     "blog.html": "cf346717"
+  },
+  "template.qmd": {
+    "template.html": "be4468b4"
   }
 }
