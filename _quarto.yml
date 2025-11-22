@@ -3,6 +3,7 @@ project:
 
 website:
   title: "Documentation Platform"
+  bread-crumbs: false
   navbar:
     background: white
     logo: wv.png
