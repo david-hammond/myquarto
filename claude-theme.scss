@@ -97,6 +97,17 @@ body, html, main, div, nav, header, footer, section, aside {
 // Main content styling
 main {
   background-color: $claude-white;
+  padding-top: 1.5rem !important;
+}
+
+// Reduce gap between navbar and content
+#quarto-content {
+  padding-top: 1.5rem !important;
+}
+
+// Reduce sidebar top padding
+.sidebar-navigation {
+  padding-top: 1.5rem !important;
 }
 
 // Headings

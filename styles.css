@@ -365,3 +365,14 @@ span.color-box {
   box-shadow: none !important;
 }
 
+/* Remove gap between navbar and content */
+body.nav-sidebar .page-columns,
+body.nav-sidebar #quarto-content {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+#quarto-content main {
+  padding-top: 0 !important;
+}
+
