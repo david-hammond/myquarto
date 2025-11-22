@@ -4,8 +4,8 @@ A professional Quarto website template with Claude AI's warm, inviting design ae
 
 ## Features
 
-- 🎨 **Claude AI Color Palette**: Warm orange (#C15F3C) accents with soft cream backgrounds
-- 🏢 **Dual Branding**: Client logo in navbar, agency logo in footer
+- 🎨 **Claude AI Color Palette**: Warm orange (#C15F3C) accents with pure white backgrounds
+- 🏢 **Dual Branding**: Client logo in navbar, organization logo in top-right
 - 📱 **Responsive Sidebar Navigation**: Clean, collapsible sidebar menu
 - 📄 **Pre-built Pages**: Getting Started, Documentation, Tutorials, API Reference, Blog, and About
 - ♿ **Accessible**: WCAG AA compliant color contrasts
@@ -24,8 +24,8 @@ When prompted, enter your project name (e.g., `my-docs`). This creates a new dir
 ### Customize
 
 1. **Add Your Logos**
-   - Replace `wv.png` with your client's logo
-   - Replace `iep.png` with your agency logo
+   - Replace `client-logo.png` with your client's logo
+   - Replace `my-logo.png` with your organization logo
 
 2. **Update Site Configuration**
 
@@ -70,8 +70,8 @@ mydocstemplate/
 ├── about.qmd                # About page
 ├── styles.css               # Quarto.org base styles
 ├── claude-theme.scss        # Claude AI color theme
-├── wv.png                   # Client logo
-└── iep.png                  # Agency logo
+├── client-logo.png          # Client logo
+└── my-logo.png              # Organization logo
 ```
 
 ## Customization
@@ -107,9 +107,12 @@ Update footer content in `_quarto.yml`:
 
 ```yaml
 page-footer:
-  left: "Powered by [Your Company](https://yoursite.com)"
-  center: |
-    <img src="your-logo.png" style="height: 30px; opacity: 0.8;">
+  left: "Powered by [Your Organization](https://yoursite.com)"
+navbar:
+  right:
+    - text: |
+        <img src="my-logo.png" style="height: 30px; vertical-align: middle;" alt="My Logo">
+      href: "https://yoursite.com"
 ```
 
 ## Requirements

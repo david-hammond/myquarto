@@ -6,15 +6,15 @@ website:
   bread-crumbs: false
   navbar:
     background: white
-    logo: wv.png
+    logo: client-logo.png
     pinned: true
     search: true
     right:
       - text: |
-          <img src="iep.png" style="height: 30px; vertical-align: middle;" alt="IEP">
-        href: "https://iep.com"
+          <img src="my-logo.png" style="height: 30px; vertical-align: middle;" alt="My Logo">
+        href: "https://example.com"
   page-footer:
-    left: "Powered by IEP"
+    left: "Powered by Your Organization"
   sidebar:
     style: "docked"
     background: white
