@@ -94,28 +94,9 @@ body, html, main, div, nav, header, footer, section, aside {
   border-color: transparent !important;
 }
 
-// Main content - AWS-style wider layout
-.quarto-container {
-  max-width: 100% !important;
-  padding: 0 !important;
-}
-
+// Main content styling
 main {
   background-color: $claude-white;
-  padding: 2rem 3rem;
-  max-width: 1400px;
-  margin: 0 auto;
-}
-
-// Better TOC positioning - slightly wider main content
-.page-columns {
-  grid-template-columns: minmax(0, 0.5fr) minmax(0, 1200px) minmax(0, 250px) !important;
-  column-gap: 2rem !important;
-}
-
-// Sidebar width optimization
-.sidebar-navigation {
-  width: 280px;
 }
 
 // Headings
