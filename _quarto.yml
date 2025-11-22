@@ -32,7 +32,7 @@ format:
       sidebar-width: 280px
       body-width: 1100px
       margin-width: 220px
-      gutter-width: 1rem
+      gutter-width: 2rem
     theme:
       - cosmo
     css:
