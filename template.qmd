@@ -1,0 +1,48 @@
+---
+title: "Welcome to Your Documentation Site"
+---
+
+## Getting Started
+
+This is your new documentation site built with the Claude-themed template.
+
+## What's Included
+
+This template provides:
+
+- **Claude AI Design**: Warm, inviting color palette inspired by Claude's desktop app
+- **Dual Branding**: Client logo in navbar, agency logo in footer
+- **Sidebar Navigation**: Easy-to-navigate documentation structure
+- **Sample Pages**: Pre-built pages to get you started quickly
+
+## Customization
+
+### Update Your Logos
+
+Replace the placeholder logos with your own:
+
+1. Add your client logo as `wv.png`
+2. Add your agency logo as `iep.png`
+
+### Modify the Site
+
+Edit `_quarto.yml` to customize:
+
+- Site title
+- Navigation structure
+- Footer links
+- Theme colors
+
+### Add Content
+
+Create new `.qmd` files for your documentation pages and add them to the sidebar in `_quarto.yml`.
+
+## Next Steps
+
+1. Update the site title in `_quarto.yml`
+2. Replace the sample content in the existing pages
+3. Add your own documentation pages
+4. Preview with `quarto preview`
+5. Publish with `quarto publish`
+
+Happy documenting!

@@ -1,8 +1,23 @@
 {
+  "api-reference.qmd": {
+    "api-reference.html": "b1da40c3"
+  },
+  "index.qmd": {
+    "index.html": "d6d0b117"
+  },
   "tutorials.qmd": {
-    "tutorials.html": "74c44df5"
+    "tutorials.html": "d6deb9ec"
+  },
+  "getting-started.qmd": {
+    "getting-started.html": "8e235910"
   },
   "about.qmd": {
-    "about.html": "361dda9f"
+    "about.html": "115b9459"
+  },
+  "documentation.qmd": {
+    "documentation.html": "f6ce726b"
+  },
+  "blog.qmd": {
+    "blog.html": "cf346717"
   }
 }

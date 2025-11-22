@@ -1,0 +1,191 @@
+/*-- scss:defaults --*/
+
+// Claude AI color palette
+$claude-orange: #C15F3C;
+$claude-warm-gray: #B1ADA1;
+$claude-cream: #F4F3EE;
+$claude-white: #FFFFFF;
+
+// Extended palette
+$primary: $claude-orange;
+$secondary: #8B7355;
+$success: #5D9B66;
+$info: #6B9AB8;
+$warning: #D89444;
+$danger: #C75450;
+
+// Background colors
+$body-bg: $claude-cream;
+$body-color: #2C2C2C;
+
+// Navigation
+$navbar-bg: $claude-white;
+$navbar-fg: $body-color;
+
+// Sidebar
+$sidebar-bg: $claude-white;
+$sidebar-fg: #4A4A4A;
+$sidebar-hover-bg: rgba($claude-orange, 0.08);
+$sidebar-active-color: $claude-orange;
+
+// Links
+$link-color: $claude-orange;
+$link-hover-color: darken($claude-orange, 10%);
+
+// Code blocks
+$code-bg: #F8F7F5;
+$code-color: #2C2C2C;
+
+/*-- scss:rules --*/
+
+// Global styling
+body {
+  background-color: $claude-cream;
+  color: $body-color;
+}
+
+// Navbar
+.navbar {
+  background-color: $navbar-bg !important;
+  border-bottom: 1px solid rgba($claude-warm-gray, 0.2);
+}
+
+// Sidebar
+.sidebar {
+  background-color: $sidebar-bg;
+  border-right: 1px solid rgba($claude-warm-gray, 0.2);
+
+  nav a {
+    color: $sidebar-fg;
+
+    &:hover {
+      background-color: $sidebar-hover-bg;
+      color: $body-color;
+    }
+
+    &.active {
+      color: $sidebar-active-color;
+      background-color: rgba($claude-orange, 0.1);
+      border-left: 3px solid $claude-orange;
+    }
+  }
+}
+
+// Main content
+main {
+  background-color: $claude-white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+// Headings
+h1, h2, h3, h4, h5, h6 {
+  color: $body-color;
+}
+
+h2 {
+  border-bottom: 1px solid rgba($claude-warm-gray, 0.3);
+  padding-bottom: 0.5rem;
+}
+
+// Links
+a {
+  color: $link-color;
+
+  &:hover {
+    color: $link-hover-color;
+  }
+}
+
+// Buttons
+.btn-primary {
+  background-color: $claude-orange;
+  border-color: $claude-orange;
+
+  &:hover {
+    background-color: darken($claude-orange, 8%);
+    border-color: darken($claude-orange, 8%);
+  }
+}
+
+// Code blocks
+code {
+  background-color: $code-bg;
+  color: $code-color;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+}
+
+pre {
+  background-color: #2C2C2C;
+  border-radius: 6px;
+
+  code {
+    background-color: transparent;
+    color: #F4F3EE;
+  }
+}
+
+// Tables
+table {
+  thead {
+    background-color: rgba($claude-orange, 0.08);
+
+    th {
+      color: $body-color;
+      font-weight: 600;
+    }
+  }
+
+  tbody tr {
+    &:hover {
+      background-color: rgba($claude-warm-gray, 0.05);
+    }
+  }
+}
+
+// Callouts
+.callout {
+  border-radius: 6px;
+
+  &.callout-note {
+    border-left-color: $claude-orange;
+    background-color: rgba($claude-orange, 0.05);
+  }
+
+  &.callout-tip {
+    border-left-color: $success;
+    background-color: rgba($success, 0.05);
+  }
+
+  &.callout-warning {
+    border-left-color: $warning;
+    background-color: rgba($warning, 0.05);
+  }
+
+  &.callout-important {
+    border-left-color: $danger;
+    background-color: rgba($danger, 0.05);
+  }
+}
+
+// Footer
+footer, .page-footer {
+  background-color: $claude-white;
+  border-top: 1px solid rgba($claude-warm-gray, 0.2);
+  color: $claude-warm-gray;
+}
+
+// TOC
+#TOC {
+  border-left-color: rgba($claude-warm-gray, 0.3);
+
+  a {
+    color: $sidebar-fg;
+
+    &:hover, &.active {
+      color: $claude-orange;
+    }
+  }
+}

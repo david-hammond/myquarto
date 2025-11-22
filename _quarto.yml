@@ -4,28 +4,53 @@ project:
 website:
   title: "Documentation Platform"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - href: getting-started.qmd
-        text: Get Started
-      - href: documentation.qmd
-        text: Docs
-      - href: tutorials.qmd
-        text: Tutorials
-      - href: api-reference.qmd
-        text: API
-      - href: blog.qmd
-        text: Blog
-      - href: about.qmd
-        text: About
+    background: light
+    logo: wv.png
+    search: true
+  page-footer:
+    left: "Powered by [IEP](https://iep.com)"
+    right:
+      - icon: github
+        href: https://github.com
+    center: |
+      <img src="iep.png" style="height: 30px; opacity: 0.8;" alt="IEP">
+  sidebar:
+    style: "docked"
+    background: light
+    contents:
+      - text: "Home"
+        href: index.qmd
+      - section: "Getting Started"
+        contents:
+          - href: getting-started.qmd
+            text: Quick Start
+      - section: "Documentation"
+        contents:
+          - href: documentation.qmd
+            text: Overview
+      - section: "Learn"
+        contents:
+          - href: tutorials.qmd
+            text: Tutorials
+      - section: "Reference"
+        contents:
+          - href: api-reference.qmd
+            text: API Reference
+      - section: "Updates"
+        contents:
+          - href: blog.qmd
+            text: Blog & News
+      - text: "---"
+      - text: "About"
+        href: about.qmd
 
 format:
   html:
     theme:
       - cosmo
-      - brand
-    css: styles.css
+    css:
+      - styles.css
+      - claude-theme.scss
     toc: true
 
 
