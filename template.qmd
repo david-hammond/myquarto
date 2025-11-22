@@ -2,47 +2,46 @@
 title: "Welcome to Your Documentation Site"
 ---
 
-## Getting Started
+## Installation Complete!
 
-This is your new documentation site built with the Claude-themed template.
+You've successfully installed the Claude-themed Quarto template. This file will be renamed to match your project name.
 
-## What's Included
+## Quick Start
 
-This template provides:
+1. **Preview your site**:
+   ```bash
+   quarto preview
+   ```
 
-- **Claude AI Design**: Warm, inviting color palette inspired by Claude's desktop app
-- **Dual Branding**: Client logo in navbar, agency logo in footer
-- **Sidebar Navigation**: Easy-to-navigate documentation structure
-- **Sample Pages**: Pre-built pages to get you started quickly
+2. **Edit this page** (now named after your project)
+3. **Navigate** using the sidebar to learn about customization and styling
+4. **Add your content** and delete these instructional pages when ready
 
-## Customization
+## What's Next?
 
-### Update Your Logos
+- Read the **Customization** page to learn how to update logos, titles, and navigation
+- Read the **Styling** page to understand how to change colors and appearance
+- Start adding your own `.qmd` files for your documentation
 
-Replace the placeholder logos with your own:
+## Template Features
 
-1. Add your client logo as `wv.png`
-2. Add your agency logo as `iep.png`
+- Pure white backgrounds with warm orange accents
+- Dual branding support (two logos)
+- Responsive sidebar navigation
+- Optimized grid layout
+- No grey borders - modern, clean design
+- Sticky navbar that stays visible
 
-### Modify the Site
+## Publishing
 
-Edit `_quarto.yml` to customize:
+When ready to deploy:
 
-- Site title
-- Navigation structure
-- Footer links
-- Theme colors
-
-### Add Content
-
-Create new `.qmd` files for your documentation pages and add them to the sidebar in `_quarto.yml`.
-
-## Next Steps
-
-1. Update the site title in `_quarto.yml`
-2. Replace the sample content in the existing pages
-3. Add your own documentation pages
-4. Preview with `quarto preview`
-5. Publish with `quarto publish`
+```bash
+quarto publish netlify
+# or
+quarto publish gh-pages
+# or
+quarto publish quarto-pub
+```
 
 Happy documenting!
