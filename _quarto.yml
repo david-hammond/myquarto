@@ -4,19 +4,19 @@ project:
 website:
   title: "Documentation Platform"
   navbar:
-    background: light
+    background: white
     logo: wv.png
+    pinned: true
     search: true
-  page-footer:
-    left: "Powered by [IEP](https://iep.com)"
     right:
-      - icon: github
-        href: https://github.com
-    center: |
-      <img src="iep.png" style="height: 30px; opacity: 0.8;" alt="IEP">
+      - text: |
+          <img src="iep.png" style="height: 30px; vertical-align: middle;" alt="IEP">
+        href: "https://iep.com"
+  page-footer:
+    left: "Powered by IEP"
   sidebar:
     style: "docked"
-    background: light
+    background: white
     contents:
       - text: "Home"
         href: index.qmd

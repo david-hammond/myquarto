@@ -29,10 +29,10 @@
 
 @media (min-width: 991.98px) {
 body.quarto-light #quarto-header {
-  border-bottom: 1px solid #dee2e6;
+  border-bottom: none !important;
 }
 body.quarto-dark #quarto-header {
-  border-bottom: 1px solid #3b3f47;
+  border-bottom: none !important;
 }
 }
 
@@ -354,3 +354,14 @@ span.color-box {
   margin-right: 0.2em; /* Space between box and text */
   border: 1px solid #000; /* Border color */
 }
+
+/* Remove all grey borders */
+#quarto-sidebar,
+.sidebar,
+.sidebar-navigation,
+#quarto-margin-sidebar {
+  border-right: none !important;
+  border-left: none !important;
+  box-shadow: none !important;
+}
+

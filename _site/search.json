@@ -6,6 +6,7 @@
     "section": "",
     "text": "Stay up to date with the latest features, improvements, and insights.",
     "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
       "Updates",
       "Blog & News"
     ]
@@ -17,6 +18,7 @@
     "section": "",
     "text": "Stay up to date with the latest features, improvements, and insights.",
     "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
       "Updates",
       "Blog & News"
     ]
@@ -28,6 +30,7 @@
     "section": "Recent Posts",
     "text": "Recent Posts\n\nAnnouncing Version 2.0\nPosted: January 15, 2024\nWe’re excited to announce the release of version 2.0 with major new features:\n\nEnhanced Performance: 50% faster processing\nNew Dashboard: Redesigned user interface\nAdvanced Analytics: Real-time insights\nAPI v2: Improved REST API\n\nRead more →\n\n\n\nBuilding Scalable Data Pipelines\nPosted: January 10, 2024\nLearn how to build production-ready data pipelines that scale:\n# Example pipeline architecture\nfrom pipeline import Pipeline, Source, Transform, Destination\n\npipeline = Pipeline()\n  .add_source(Source.database(\"postgres\"))\n  .add_transform(Transform.clean())\n  .add_transform(Transform.aggregate())\n  .add_destination(Destination.warehouse(\"snowflake\"))\n  .run()\nKey Takeaways:\n\nDesign for failure and recovery\nImplement proper monitoring\nUse idempotent operations\nScale horizontally\n\nRead more →\n\n\n\nBest Practices for API Security\nPosted: January 5, 2024\nProtect your APIs with these essential security practices:\n\nAuthentication & Authorization\nAlways use OAuth 2.0 or JWT for authentication:\nconst token = jwt.sign(\n  { userId: user.id, role: user.role },\n  process.env.JWT_SECRET,\n  { expiresIn: '1h' }\n);\n\n\nRate Limiting\nImplement rate limiting to prevent abuse:\n\n\n\nTier\nLimit\n\n\n\n\nAnonymous\n10 req/min\n\n\nAuthenticated\n100 req/min\n\n\nPremium\n1000 req/min\n\n\n\n\n\nInput Validation\nAlways validate and sanitize input:\nfrom pydantic import BaseModel, EmailStr\n\nclass UserCreate(BaseModel):\n    username: str\n    email: EmailStr\n    password: str\n\n    @validator('password')\n    def password_strength(cls, v):\n        if len(v) &lt; 8:\n            raise ValueError('Password too short')\n        return v\nRead more →\n\n\n\n\nCommunity Spotlight: Success Stories\nPosted: December 28, 2023\nHear from our community members about how they’re using the platform:\n\n“We reduced our data processing time from hours to minutes. The automation features are game-changing!”\n— Sarah Chen, Data Engineer at TechCorp\n\n\n“The API is incredibly well-documented. We integrated it into our workflow in just one day.”\n— Michael Rodriguez, Lead Developer at StartupXYZ\n\n\n\n\n\n\n\nShare Your Story\n\n\n\nWant to be featured? Contact us with your success story!\n\n\n\n\n\nRoadmap: What’s Coming Next\nPosted: December 20, 2023\nHere’s a sneak peek at what we’re working on:\n\nQ1 2024\n\nMachine Learning Integration\nEnhanced Visualization Tools\nMobile App (iOS & Android)\nAdvanced Collaboration Features\n\n\n\nQ2 2024\n\nMulti-region Support\nReal-time Streaming Data\nCustom Plugins Marketplace\nEnterprise SSO\n\n\n\nQ3 2024\n\nAI-Powered Insights\nAdvanced Security Features\nGraphQL API\nWorkflow Templates Library",
     "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
       "Updates",
       "Blog & News"
     ]
@@ -39,6 +42,7 @@
     "section": "Categories",
     "text": "Categories\nBrowse posts by category:\n\nProduct Updates - New features and releases\nTutorials - Step-by-step guides\nBest Practices - Tips and recommendations\nCase Studies - Customer success stories\nEngineering - Technical deep dives",
     "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
       "Updates",
       "Blog & News"
     ]
@@ -50,6 +54,7 @@
     "section": "Subscribe",
     "text": "Subscribe\nStay informed with our newsletter:\n\nWeekly product updates\nMonthly feature releases\nExclusive tips and tricks\nEarly access to beta features\n\nSubscribe now →",
     "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
       "Updates",
       "Blog & News"
     ]
@@ -61,6 +66,7 @@
     "section": "Archive",
     "text": "Archive\n\n2024 Posts\n2023 Posts\nAll Posts",
     "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
       "Updates",
       "Blog & News"
     ]
@@ -72,369 +78,9 @@
     "section": "Follow Us",
     "text": "Follow Us\nConnect with us on social media:\n\nTwitter: @example\nLinkedIn: /company/example\nGitHub: github.com/example\nYouTube: /example\n\n\nHave a topic suggestion? Let us know in the community forums!",
     "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
       "Updates",
       "Blog & News"
-    ]
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site",
-    "crumbs": [
-      "About"
-    ]
-  },
-  {
-    "objectID": "tutorials.html",
-    "href": "tutorials.html",
-    "title": "Tutorials",
-    "section": "",
-    "text": "Learn by doing with our comprehensive tutorials.",
-    "crumbs": [
-      "Learn",
-      "Tutorials"
-    ]
-  },
-  {
-    "objectID": "tutorials.html#interactive-learning",
-    "href": "tutorials.html#interactive-learning",
-    "title": "Tutorials",
-    "section": "",
-    "text": "Learn by doing with our comprehensive tutorials.",
-    "crumbs": [
-      "Learn",
-      "Tutorials"
-    ]
-  },
-  {
-    "objectID": "tutorials.html#beginner-tutorials",
-    "href": "tutorials.html#beginner-tutorials",
-    "title": "Tutorials",
-    "section": "Beginner Tutorials",
-    "text": "Beginner Tutorials\n\nTutorial 1: Your First Project\nCreate your first project from scratch:\n\nInitialize Project\n\nClick “New Project”\nChoose a template\nName your project\n\nAdd Content\n\nCreate your first document\nAdd some text and images\nSave your changes\n\nPreview\n\nClick the preview button\nReview your work\nMake adjustments\n\n\n\n\nTutorial 2: Working with Data\nLearn to import and visualize data:\n# Load data\nlibrary(tidyverse)\n\ndata &lt;- read_csv(\"data/sales.csv\")\n\n# Visualize\nggplot(data, aes(x = date, y = sales)) +\n  geom_line(color = \"#2C3E50\") +\n  theme_minimal() +\n  labs(title = \"Sales Over Time\")\n\n\n\n\n\n\nSample Data\n\n\n\nDownload sample data from our resources page.",
-    "crumbs": [
-      "Learn",
-      "Tutorials"
-    ]
-  },
-  {
-    "objectID": "tutorials.html#intermediate-tutorials",
-    "href": "tutorials.html#intermediate-tutorials",
-    "title": "Tutorials",
-    "section": "Intermediate Tutorials",
-    "text": "Intermediate Tutorials\n\nTutorial 3: Custom Workflows\nBuild automated workflows step-by-step:\n\nPart 1: Design Your Workflow\n\nIdentify your data sources\nMap transformation steps\nDefine output destinations\n\n\n\nPart 2: Implementation\n// Example workflow configuration\nconst workflow = {\n  name: \"Daily Report Generator\",\n  schedule: \"0 9 * * *\",\n  steps: [\n    { action: \"fetch\", source: \"database\" },\n    { action: \"transform\", script: \"process.js\" },\n    { action: \"export\", format: \"pdf\" }\n  ]\n};\n\n\nPart 3: Testing & Deployment\n\nTest with sample data\nValidate outputs\nDeploy to production\n\n\n\n\nTutorial 4: API Integration\nConnect external services via API:\n# Example API call\ncurl -X POST https://api.example.com/v1/data \\\n  -H \"Authorization: Bearer YOUR_TOKEN\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"data\": \"value\"}'",
-    "crumbs": [
-      "Learn",
-      "Tutorials"
-    ]
-  },
-  {
-    "objectID": "tutorials.html#advanced-tutorials",
-    "href": "tutorials.html#advanced-tutorials",
-    "title": "Tutorials",
-    "section": "Advanced Tutorials",
-    "text": "Advanced Tutorials\n\nTutorial 5: Performance Optimization\nMaster advanced optimization techniques:\n\nCaching Strategies\nImplement efficient caching:\nfrom functools import lru_cache\n\n@lru_cache(maxsize=128)\ndef expensive_operation(param):\n    # Computationally intensive task\n    result = complex_calculation(param)\n    return result\n\n\nParallel Processing\nLeverage multi-threading:\nfrom concurrent.futures import ThreadPoolExecutor\n\ndef process_batch(items):\n    with ThreadPoolExecutor(max_workers=4) as executor:\n        results = executor.map(process_item, items)\n    return list(results)",
-    "crumbs": [
-      "Learn",
-      "Tutorials"
-    ]
-  },
-  {
-    "objectID": "tutorials.html#hands-on-projects",
-    "href": "tutorials.html#hands-on-projects",
-    "title": "Tutorials",
-    "section": "Hands-On Projects",
-    "text": "Hands-On Projects\nApply what you’ve learned:\n\nE-commerce Dashboard: Build a real-time sales dashboard\nData Pipeline: Create an ETL pipeline\nAPI Service: Develop a RESTful API\nAutomation Bot: Build a workflow automation tool",
-    "crumbs": [
-      "Learn",
-      "Tutorials"
-    ]
-  },
-  {
-    "objectID": "tutorials.html#quiz-challenges",
-    "href": "tutorials.html#quiz-challenges",
-    "title": "Tutorials",
-    "section": "Quiz & Challenges",
-    "text": "Quiz & Challenges\nTest your knowledge:\n\nComplete the beginner quiz\nTry our coding challenges\nJoin our community challenges",
-    "crumbs": [
-      "Learn",
-      "Tutorials"
-    ]
-  },
-  {
-    "objectID": "tutorials.html#next-steps",
-    "href": "tutorials.html#next-steps",
-    "title": "Tutorials",
-    "section": "Next Steps",
-    "text": "Next Steps\nReady for more?\n\nExplore Documentation\nCheck out API Reference\nJoin our community forums",
-    "crumbs": [
-      "Learn",
-      "Tutorials"
-    ]
-  },
-  {
-    "objectID": "api-reference.html",
-    "href": "api-reference.html",
-    "title": "API Reference",
-    "section": "",
-    "text": "Complete reference for all API endpoints.",
-    "crumbs": [
-      "Reference",
-      "API Reference"
-    ]
-  },
-  {
-    "objectID": "api-reference.html#rest-api-documentation",
-    "href": "api-reference.html#rest-api-documentation",
-    "title": "API Reference",
-    "section": "",
-    "text": "Complete reference for all API endpoints.",
-    "crumbs": [
-      "Reference",
-      "API Reference"
-    ]
-  },
-  {
-    "objectID": "api-reference.html#authentication",
-    "href": "api-reference.html#authentication",
-    "title": "API Reference",
-    "section": "Authentication",
-    "text": "Authentication\nAll API requests require authentication using Bearer tokens:\nAuthorization: Bearer YOUR_API_TOKEN\n\nGetting Your API Key\n\nNavigate to Settings &gt; API Keys\nClick “Generate New Key”\nCopy and store securely\n\n\n\n\n\n\n\nSecurity\n\n\n\nNever share your API keys or commit them to version control!",
-    "crumbs": [
-      "Reference",
-      "API Reference"
-    ]
-  },
-  {
-    "objectID": "api-reference.html#base-url",
-    "href": "api-reference.html#base-url",
-    "title": "API Reference",
-    "section": "Base URL",
-    "text": "Base URL\nhttps://api.example.com/v1",
-    "crumbs": [
-      "Reference",
-      "API Reference"
-    ]
-  },
-  {
-    "objectID": "api-reference.html#endpoints",
-    "href": "api-reference.html#endpoints",
-    "title": "API Reference",
-    "section": "Endpoints",
-    "text": "Endpoints\n\nUsers\n\nGET /users\nRetrieve all users.\nParameters:\n\n\n\nParameter\nType\nRequired\nDescription\n\n\n\n\nlimit\ninteger\nNo\nMax results (default: 50)\n\n\noffset\ninteger\nNo\nPagination offset\n\n\nsort\nstring\nNo\nSort field\n\n\n\nExample Request:\ncurl -X GET \"https://api.example.com/v1/users?limit=10\" \\\n  -H \"Authorization: Bearer YOUR_TOKEN\"\nExample Response:\n{\n  \"data\": [\n    {\n      \"id\": 1,\n      \"username\": \"johndoe\",\n      \"email\": \"john@example.com\",\n      \"created_at\": \"2024-01-15T10:30:00Z\"\n    }\n  ],\n  \"meta\": {\n    \"total\": 100,\n    \"limit\": 10,\n    \"offset\": 0\n  }\n}\n\n\nPOST /users\nCreate a new user.\nRequest Body:\n{\n  \"username\": \"string\",\n  \"email\": \"string\",\n  \"password\": \"string\"\n}\n\n\n\nProjects\n\nGET /projects\nList all projects.\nExample:\ncurl -X GET \"https://api.example.com/v1/projects\" \\\n  -H \"Authorization: Bearer YOUR_TOKEN\"\n\n\nPOST /projects\nCreate a new project.\nRequest Body:\n{\n  \"name\": \"My Project\",\n  \"description\": \"Project description\",\n  \"settings\": {\n    \"public\": true,\n    \"features\": [\"analytics\", \"export\"]\n  }\n}\n\n\nPUT /projects/{id}\nUpdate an existing project.\n\n\nDELETE /projects/{id}\nDelete a project.\n\n\n\nData\n\nPOST /data/import\nImport data from external sources.\nSupported Formats: - CSV - JSON - XML - Parquet\nExample:\nimport requests\n\nurl = \"https://api.example.com/v1/data/import\"\nheaders = {\"Authorization\": \"Bearer YOUR_TOKEN\"}\nfiles = {\"file\": open(\"data.csv\", \"rb\")}\n\nresponse = requests.post(url, headers=headers, files=files)\n\n\nGET /data/export\nExport data in various formats.\nQuery Parameters:\n\n\n\nParameter\nType\nOptions\n\n\n\n\nformat\nstring\ncsv, json, xml, parquet\n\n\nfilters\nobject\nField filters",
-    "crumbs": [
-      "Reference",
-      "API Reference"
-    ]
-  },
-  {
-    "objectID": "api-reference.html#rate-limits",
-    "href": "api-reference.html#rate-limits",
-    "title": "API Reference",
-    "section": "Rate Limits",
-    "text": "Rate Limits\nAPI rate limits by plan:\n\n\n\nPlan\nRequests/Hour\nRequests/Day\n\n\n\n\nFree\n100\n1,000\n\n\nPro\n1,000\n10,000\n\n\nEnterprise\nUnlimited\nUnlimited",
-    "crumbs": [
-      "Reference",
-      "API Reference"
-    ]
-  },
-  {
-    "objectID": "api-reference.html#error-codes",
-    "href": "api-reference.html#error-codes",
-    "title": "API Reference",
-    "section": "Error Codes",
-    "text": "Error Codes\n\n\n\nCode\nDescription\n\n\n\n\n200\nSuccess\n\n\n201\nCreated\n\n\n400\nBad Request\n\n\n401\nUnauthorized\n\n\n403\nForbidden\n\n\n404\nNot Found\n\n\n429\nToo Many Requests\n\n\n500\nInternal Server Error\n\n\n\nError Response Format:\n{\n  \"error\": {\n    \"code\": \"INVALID_REQUEST\",\n    \"message\": \"Missing required parameter: username\",\n    \"details\": {}\n  }\n}",
-    "crumbs": [
-      "Reference",
-      "API Reference"
-    ]
-  },
-  {
-    "objectID": "api-reference.html#webhooks",
-    "href": "api-reference.html#webhooks",
-    "title": "API Reference",
-    "section": "Webhooks",
-    "text": "Webhooks\nSubscribe to events via webhooks:\n{\n  \"url\": \"https://your-app.com/webhook\",\n  \"events\": [\"user.created\", \"project.updated\"],\n  \"secret\": \"webhook_secret\"\n}",
-    "crumbs": [
-      "Reference",
-      "API Reference"
-    ]
-  },
-  {
-    "objectID": "api-reference.html#sdks-libraries",
-    "href": "api-reference.html#sdks-libraries",
-    "title": "API Reference",
-    "section": "SDKs & Libraries",
-    "text": "SDKs & Libraries\nOfficial client libraries:\n\nJavaScript: npm install @example/api-client\nPython: pip install example-api\nRuby: gem install example-api\nGo: go get github.com/example/api-go\n\nPython Example:\nfrom example_api import Client\n\nclient = Client(api_key=\"YOUR_TOKEN\")\nusers = client.users.list(limit=10)\n\nfor user in users:\n    print(user.username)",
-    "crumbs": [
-      "Reference",
-      "API Reference"
-    ]
-  },
-  {
-    "objectID": "api-reference.html#support",
-    "href": "api-reference.html#support",
-    "title": "API Reference",
-    "section": "Support",
-    "text": "Support\nNeed help with the API?\n\nDocumentation\nTutorials\nCommunity Forums\nsupport@example.com",
-    "crumbs": [
-      "Reference",
-      "API Reference"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "website",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "getting-started.html",
-    "href": "getting-started.html",
-    "title": "Getting Started",
-    "section": "",
-    "text": "This guide will help you get up and running quickly with our platform.",
-    "crumbs": [
-      "Getting Started",
-      "Quick Start"
-    ]
-  },
-  {
-    "objectID": "getting-started.html#welcome-to-our-platform",
-    "href": "getting-started.html#welcome-to-our-platform",
-    "title": "Getting Started",
-    "section": "",
-    "text": "This guide will help you get up and running quickly with our platform.",
-    "crumbs": [
-      "Getting Started",
-      "Quick Start"
-    ]
-  },
-  {
-    "objectID": "getting-started.html#prerequisites",
-    "href": "getting-started.html#prerequisites",
-    "title": "Getting Started",
-    "section": "Prerequisites",
-    "text": "Prerequisites\nBefore you begin, make sure you have:\n\nA modern web browser\nAn active account\nBasic understanding of the platform",
-    "crumbs": [
-      "Getting Started",
-      "Quick Start"
-    ]
-  },
-  {
-    "objectID": "getting-started.html#quick-start",
-    "href": "getting-started.html#quick-start",
-    "title": "Getting Started",
-    "section": "Quick Start",
-    "text": "Quick Start\nFollow these steps to get started:\n\nStep 1: Create Your Account\nNavigate to the signup page and create your account. You’ll need to provide:\n\nEmail address\nUsername\nStrong password\n\n\n\nStep 2: Configure Your Profile\nOnce logged in, configure your profile settings:\n# Example configuration\nusername: your_username\nemail: your@email.com\npreferences: custom\n\n\nStep 3: Explore the Dashboard\nThe dashboard provides an overview of:\n\nRecent activity\nQuick actions\nSystem status\nNotifications",
-    "crumbs": [
-      "Getting Started",
-      "Quick Start"
-    ]
-  },
-  {
-    "objectID": "getting-started.html#next-steps",
-    "href": "getting-started.html#next-steps",
-    "title": "Getting Started",
-    "section": "Next Steps",
-    "text": "Next Steps\nNow that you’re set up, check out:\n\nDocumentation for detailed guides\nTutorials for hands-on learning\nAPI Reference for technical details",
-    "crumbs": [
-      "Getting Started",
-      "Quick Start"
-    ]
-  },
-  {
-    "objectID": "getting-started.html#need-help",
-    "href": "getting-started.html#need-help",
-    "title": "Getting Started",
-    "section": "Need Help?",
-    "text": "Need Help?\nIf you encounter any issues:\n\nCheck the FAQ\nVisit our community forums\nContact support\n\n\n\n\n\n\n\nPro Tip\n\n\n\nEnable two-factor authentication for enhanced security!",
-    "crumbs": [
-      "Getting Started",
-      "Quick Start"
-    ]
-  },
-  {
-    "objectID": "documentation.html",
-    "href": "documentation.html",
-    "title": "Documentation",
-    "section": "",
-    "text": "Our platform provides a comprehensive suite of tools for managing your workflows.",
-    "crumbs": [
-      "Documentation",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "documentation.html#platform-overview",
-    "href": "documentation.html#platform-overview",
-    "title": "Documentation",
-    "section": "",
-    "text": "Our platform provides a comprehensive suite of tools for managing your workflows.",
-    "crumbs": [
-      "Documentation",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "documentation.html#core-features",
-    "href": "documentation.html#core-features",
-    "title": "Documentation",
-    "section": "Core Features",
-    "text": "Core Features\n\nDashboard Management\nThe dashboard is your central hub for monitoring and controlling all aspects of your account.\n\nKey Metrics\n\n\n\nMetric\nDescription\nUpdate Frequency\n\n\n\n\nActive Users\nCurrent logged-in users\nReal-time\n\n\nSystem Load\nServer utilization\nEvery 5 minutes\n\n\nAPI Calls\nTotal API requests\nHourly\n\n\nStorage Used\nTotal data storage\nDaily\n\n\n\n\n\n\nData Integration\nConnect multiple data sources seamlessly:\n\nDatabases: PostgreSQL, MySQL, MongoDB\nCloud Storage: AWS S3, Google Cloud Storage, Azure Blob\nAPIs: REST, GraphQL, WebSocket\nFiles: CSV, JSON, XML, Parquet\n\n\n\nWorkflow Automation\nCreate automated workflows with our visual builder:\n# Example workflow\ndef process_data(input_data):\n    # Transform data\n    cleaned_data = clean(input_data)\n\n    # Apply business logic\n    processed_data = transform(cleaned_data)\n\n    # Save results\n    save_to_database(processed_data)\n\n    return processed_data",
-    "crumbs": [
-      "Documentation",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "documentation.html#advanced-configuration",
-    "href": "documentation.html#advanced-configuration",
-    "title": "Documentation",
-    "section": "Advanced Configuration",
-    "text": "Advanced Configuration\n\nCustom Settings\nCustomize your experience with these advanced options:\n\n\n\n\n\n\nImportant\n\n\n\nChanging advanced settings may affect system performance. Proceed with caution.\n\n\n\nPerformance Tuning\n\nCache Size: Adjust memory allocation\nWorker Threads: Configure parallel processing\nTimeout Values: Set request timeout limits\n\n\n\nSecurity Options\n\nIP Whitelisting: Restrict access by IP\nRate Limiting: Control API request rates\nEncryption: Enable end-to-end encryption",
-    "crumbs": [
-      "Documentation",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "documentation.html#best-practices",
-    "href": "documentation.html#best-practices",
-    "title": "Documentation",
-    "section": "Best Practices",
-    "text": "Best Practices\n\nRegular Backups: Schedule automated backups daily\nMonitor Usage: Keep track of resource consumption\nUpdate Regularly: Stay current with platform updates\nSecurity First: Enable all available security features",
-    "crumbs": [
-      "Documentation",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "documentation.html#troubleshooting",
-    "href": "documentation.html#troubleshooting",
-    "title": "Documentation",
-    "section": "Troubleshooting",
-    "text": "Troubleshooting\nCommon issues and solutions:\n\nConnection Errors\nIf you experience connection issues:\n\nCheck your network connection\nVerify firewall settings\nEnsure API credentials are valid\n\n\n\nPerformance Issues\nTo optimize performance:\n\nClear browser cache\nReduce concurrent operations\nUpgrade your plan if needed",
-    "crumbs": [
-      "Documentation",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "documentation.html#additional-resources",
-    "href": "documentation.html#additional-resources",
-    "title": "Documentation",
-    "section": "Additional Resources",
-    "text": "Additional Resources\n\nAPI Reference\nTutorials\nGetting Started",
-    "crumbs": [
-      "Documentation",
-      "Overview"
     ]
   },
   {
@@ -471,5 +117,406 @@
     "title": "Welcome to Your Documentation Site",
     "section": "Next Steps",
     "text": "Next Steps\n\nUpdate the site title in _quarto.yml\nReplace the sample content in the existing pages\nAdd your own documentation pages\nPreview with quarto preview\nPublish with quarto publish\n\nHappy documenting!"
+  },
+  {
+    "objectID": "getting-started.html",
+    "href": "getting-started.html",
+    "title": "Getting Started",
+    "section": "",
+    "text": "This guide will help you get up and running quickly with our platform.",
+    "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
+      "Getting Started",
+      "Quick Start"
+    ]
+  },
+  {
+    "objectID": "getting-started.html#welcome-to-our-platform",
+    "href": "getting-started.html#welcome-to-our-platform",
+    "title": "Getting Started",
+    "section": "",
+    "text": "This guide will help you get up and running quickly with our platform.",
+    "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
+      "Getting Started",
+      "Quick Start"
+    ]
+  },
+  {
+    "objectID": "getting-started.html#prerequisites",
+    "href": "getting-started.html#prerequisites",
+    "title": "Getting Started",
+    "section": "Prerequisites",
+    "text": "Prerequisites\nBefore you begin, make sure you have:\n\nA modern web browser\nAn active account\nBasic understanding of the platform",
+    "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
+      "Getting Started",
+      "Quick Start"
+    ]
+  },
+  {
+    "objectID": "getting-started.html#quick-start",
+    "href": "getting-started.html#quick-start",
+    "title": "Getting Started",
+    "section": "Quick Start",
+    "text": "Quick Start\nFollow these steps to get started:\n\nStep 1: Create Your Account\nNavigate to the signup page and create your account. You’ll need to provide:\n\nEmail address\nUsername\nStrong password\n\n\n\nStep 2: Configure Your Profile\nOnce logged in, configure your profile settings:\n# Example configuration\nusername: your_username\nemail: your@email.com\npreferences: custom\n\n\nStep 3: Explore the Dashboard\nThe dashboard provides an overview of:\n\nRecent activity\nQuick actions\nSystem status\nNotifications",
+    "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
+      "Getting Started",
+      "Quick Start"
+    ]
+  },
+  {
+    "objectID": "getting-started.html#next-steps",
+    "href": "getting-started.html#next-steps",
+    "title": "Getting Started",
+    "section": "Next Steps",
+    "text": "Next Steps\nNow that you’re set up, check out:\n\nDocumentation for detailed guides\nTutorials for hands-on learning\nAPI Reference for technical details",
+    "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
+      "Getting Started",
+      "Quick Start"
+    ]
+  },
+  {
+    "objectID": "getting-started.html#need-help",
+    "href": "getting-started.html#need-help",
+    "title": "Getting Started",
+    "section": "Need Help?",
+    "text": "Need Help?\nIf you encounter any issues:\n\nCheck the FAQ\nVisit our community forums\nContact support\n\n\n\n\n\n\n\nPro Tip\n\n\n\nEnable two-factor authentication for enhanced security!",
+    "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
+      "Getting Started",
+      "Quick Start"
+    ]
+  },
+  {
+    "objectID": "tutorials.html",
+    "href": "tutorials.html",
+    "title": "Tutorials",
+    "section": "",
+    "text": "Learn by doing with our comprehensive tutorials.",
+    "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
+      "Learn",
+      "Tutorials"
+    ]
+  },
+  {
+    "objectID": "tutorials.html#interactive-learning",
+    "href": "tutorials.html#interactive-learning",
+    "title": "Tutorials",
+    "section": "",
+    "text": "Learn by doing with our comprehensive tutorials.",
+    "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
+      "Learn",
+      "Tutorials"
+    ]
+  },
+  {
+    "objectID": "tutorials.html#beginner-tutorials",
+    "href": "tutorials.html#beginner-tutorials",
+    "title": "Tutorials",
+    "section": "Beginner Tutorials",
+    "text": "Beginner Tutorials\n\nTutorial 1: Your First Project\nCreate your first project from scratch:\n\nInitialize Project\n\nClick “New Project”\nChoose a template\nName your project\n\nAdd Content\n\nCreate your first document\nAdd some text and images\nSave your changes\n\nPreview\n\nClick the preview button\nReview your work\nMake adjustments\n\n\n\n\nTutorial 2: Working with Data\nLearn to import and visualize data:\n# Load data\nlibrary(tidyverse)\n\ndata &lt;- read_csv(\"data/sales.csv\")\n\n# Visualize\nggplot(data, aes(x = date, y = sales)) +\n  geom_line(color = \"#2C3E50\") +\n  theme_minimal() +\n  labs(title = \"Sales Over Time\")\n\n\n\n\n\n\nSample Data\n\n\n\nDownload sample data from our resources page.",
+    "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
+      "Learn",
+      "Tutorials"
+    ]
+  },
+  {
+    "objectID": "tutorials.html#intermediate-tutorials",
+    "href": "tutorials.html#intermediate-tutorials",
+    "title": "Tutorials",
+    "section": "Intermediate Tutorials",
+    "text": "Intermediate Tutorials\n\nTutorial 3: Custom Workflows\nBuild automated workflows step-by-step:\n\nPart 1: Design Your Workflow\n\nIdentify your data sources\nMap transformation steps\nDefine output destinations\n\n\n\nPart 2: Implementation\n// Example workflow configuration\nconst workflow = {\n  name: \"Daily Report Generator\",\n  schedule: \"0 9 * * *\",\n  steps: [\n    { action: \"fetch\", source: \"database\" },\n    { action: \"transform\", script: \"process.js\" },\n    { action: \"export\", format: \"pdf\" }\n  ]\n};\n\n\nPart 3: Testing & Deployment\n\nTest with sample data\nValidate outputs\nDeploy to production\n\n\n\n\nTutorial 4: API Integration\nConnect external services via API:\n# Example API call\ncurl -X POST https://api.example.com/v1/data \\\n  -H \"Authorization: Bearer YOUR_TOKEN\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"data\": \"value\"}'",
+    "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
+      "Learn",
+      "Tutorials"
+    ]
+  },
+  {
+    "objectID": "tutorials.html#advanced-tutorials",
+    "href": "tutorials.html#advanced-tutorials",
+    "title": "Tutorials",
+    "section": "Advanced Tutorials",
+    "text": "Advanced Tutorials\n\nTutorial 5: Performance Optimization\nMaster advanced optimization techniques:\n\nCaching Strategies\nImplement efficient caching:\nfrom functools import lru_cache\n\n@lru_cache(maxsize=128)\ndef expensive_operation(param):\n    # Computationally intensive task\n    result = complex_calculation(param)\n    return result\n\n\nParallel Processing\nLeverage multi-threading:\nfrom concurrent.futures import ThreadPoolExecutor\n\ndef process_batch(items):\n    with ThreadPoolExecutor(max_workers=4) as executor:\n        results = executor.map(process_item, items)\n    return list(results)",
+    "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
+      "Learn",
+      "Tutorials"
+    ]
+  },
+  {
+    "objectID": "tutorials.html#hands-on-projects",
+    "href": "tutorials.html#hands-on-projects",
+    "title": "Tutorials",
+    "section": "Hands-On Projects",
+    "text": "Hands-On Projects\nApply what you’ve learned:\n\nE-commerce Dashboard: Build a real-time sales dashboard\nData Pipeline: Create an ETL pipeline\nAPI Service: Develop a RESTful API\nAutomation Bot: Build a workflow automation tool",
+    "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
+      "Learn",
+      "Tutorials"
+    ]
+  },
+  {
+    "objectID": "tutorials.html#quiz-challenges",
+    "href": "tutorials.html#quiz-challenges",
+    "title": "Tutorials",
+    "section": "Quiz & Challenges",
+    "text": "Quiz & Challenges\nTest your knowledge:\n\nComplete the beginner quiz\nTry our coding challenges\nJoin our community challenges",
+    "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
+      "Learn",
+      "Tutorials"
+    ]
+  },
+  {
+    "objectID": "tutorials.html#next-steps",
+    "href": "tutorials.html#next-steps",
+    "title": "Tutorials",
+    "section": "Next Steps",
+    "text": "Next Steps\nReady for more?\n\nExplore Documentation\nCheck out API Reference\nJoin our community forums",
+    "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
+      "Learn",
+      "Tutorials"
+    ]
+  },
+  {
+    "objectID": "api-reference.html",
+    "href": "api-reference.html",
+    "title": "API Reference",
+    "section": "",
+    "text": "Complete reference for all API endpoints.",
+    "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
+      "Reference",
+      "API Reference"
+    ]
+  },
+  {
+    "objectID": "api-reference.html#rest-api-documentation",
+    "href": "api-reference.html#rest-api-documentation",
+    "title": "API Reference",
+    "section": "",
+    "text": "Complete reference for all API endpoints.",
+    "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
+      "Reference",
+      "API Reference"
+    ]
+  },
+  {
+    "objectID": "api-reference.html#authentication",
+    "href": "api-reference.html#authentication",
+    "title": "API Reference",
+    "section": "Authentication",
+    "text": "Authentication\nAll API requests require authentication using Bearer tokens:\nAuthorization: Bearer YOUR_API_TOKEN\n\nGetting Your API Key\n\nNavigate to Settings &gt; API Keys\nClick “Generate New Key”\nCopy and store securely\n\n\n\n\n\n\n\nSecurity\n\n\n\nNever share your API keys or commit them to version control!",
+    "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
+      "Reference",
+      "API Reference"
+    ]
+  },
+  {
+    "objectID": "api-reference.html#base-url",
+    "href": "api-reference.html#base-url",
+    "title": "API Reference",
+    "section": "Base URL",
+    "text": "Base URL\nhttps://api.example.com/v1",
+    "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
+      "Reference",
+      "API Reference"
+    ]
+  },
+  {
+    "objectID": "api-reference.html#endpoints",
+    "href": "api-reference.html#endpoints",
+    "title": "API Reference",
+    "section": "Endpoints",
+    "text": "Endpoints\n\nUsers\n\nGET /users\nRetrieve all users.\nParameters:\n\n\n\nParameter\nType\nRequired\nDescription\n\n\n\n\nlimit\ninteger\nNo\nMax results (default: 50)\n\n\noffset\ninteger\nNo\nPagination offset\n\n\nsort\nstring\nNo\nSort field\n\n\n\nExample Request:\ncurl -X GET \"https://api.example.com/v1/users?limit=10\" \\\n  -H \"Authorization: Bearer YOUR_TOKEN\"\nExample Response:\n{\n  \"data\": [\n    {\n      \"id\": 1,\n      \"username\": \"johndoe\",\n      \"email\": \"john@example.com\",\n      \"created_at\": \"2024-01-15T10:30:00Z\"\n    }\n  ],\n  \"meta\": {\n    \"total\": 100,\n    \"limit\": 10,\n    \"offset\": 0\n  }\n}\n\n\nPOST /users\nCreate a new user.\nRequest Body:\n{\n  \"username\": \"string\",\n  \"email\": \"string\",\n  \"password\": \"string\"\n}\n\n\n\nProjects\n\nGET /projects\nList all projects.\nExample:\ncurl -X GET \"https://api.example.com/v1/projects\" \\\n  -H \"Authorization: Bearer YOUR_TOKEN\"\n\n\nPOST /projects\nCreate a new project.\nRequest Body:\n{\n  \"name\": \"My Project\",\n  \"description\": \"Project description\",\n  \"settings\": {\n    \"public\": true,\n    \"features\": [\"analytics\", \"export\"]\n  }\n}\n\n\nPUT /projects/{id}\nUpdate an existing project.\n\n\nDELETE /projects/{id}\nDelete a project.\n\n\n\nData\n\nPOST /data/import\nImport data from external sources.\nSupported Formats: - CSV - JSON - XML - Parquet\nExample:\nimport requests\n\nurl = \"https://api.example.com/v1/data/import\"\nheaders = {\"Authorization\": \"Bearer YOUR_TOKEN\"}\nfiles = {\"file\": open(\"data.csv\", \"rb\")}\n\nresponse = requests.post(url, headers=headers, files=files)\n\n\nGET /data/export\nExport data in various formats.\nQuery Parameters:\n\n\n\nParameter\nType\nOptions\n\n\n\n\nformat\nstring\ncsv, json, xml, parquet\n\n\nfilters\nobject\nField filters",
+    "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
+      "Reference",
+      "API Reference"
+    ]
+  },
+  {
+    "objectID": "api-reference.html#rate-limits",
+    "href": "api-reference.html#rate-limits",
+    "title": "API Reference",
+    "section": "Rate Limits",
+    "text": "Rate Limits\nAPI rate limits by plan:\n\n\n\nPlan\nRequests/Hour\nRequests/Day\n\n\n\n\nFree\n100\n1,000\n\n\nPro\n1,000\n10,000\n\n\nEnterprise\nUnlimited\nUnlimited",
+    "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
+      "Reference",
+      "API Reference"
+    ]
+  },
+  {
+    "objectID": "api-reference.html#error-codes",
+    "href": "api-reference.html#error-codes",
+    "title": "API Reference",
+    "section": "Error Codes",
+    "text": "Error Codes\n\n\n\nCode\nDescription\n\n\n\n\n200\nSuccess\n\n\n201\nCreated\n\n\n400\nBad Request\n\n\n401\nUnauthorized\n\n\n403\nForbidden\n\n\n404\nNot Found\n\n\n429\nToo Many Requests\n\n\n500\nInternal Server Error\n\n\n\nError Response Format:\n{\n  \"error\": {\n    \"code\": \"INVALID_REQUEST\",\n    \"message\": \"Missing required parameter: username\",\n    \"details\": {}\n  }\n}",
+    "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
+      "Reference",
+      "API Reference"
+    ]
+  },
+  {
+    "objectID": "api-reference.html#webhooks",
+    "href": "api-reference.html#webhooks",
+    "title": "API Reference",
+    "section": "Webhooks",
+    "text": "Webhooks\nSubscribe to events via webhooks:\n{\n  \"url\": \"https://your-app.com/webhook\",\n  \"events\": [\"user.created\", \"project.updated\"],\n  \"secret\": \"webhook_secret\"\n}",
+    "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
+      "Reference",
+      "API Reference"
+    ]
+  },
+  {
+    "objectID": "api-reference.html#sdks-libraries",
+    "href": "api-reference.html#sdks-libraries",
+    "title": "API Reference",
+    "section": "SDKs & Libraries",
+    "text": "SDKs & Libraries\nOfficial client libraries:\n\nJavaScript: npm install @example/api-client\nPython: pip install example-api\nRuby: gem install example-api\nGo: go get github.com/example/api-go\n\nPython Example:\nfrom example_api import Client\n\nclient = Client(api_key=\"YOUR_TOKEN\")\nusers = client.users.list(limit=10)\n\nfor user in users:\n    print(user.username)",
+    "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
+      "Reference",
+      "API Reference"
+    ]
+  },
+  {
+    "objectID": "api-reference.html#support",
+    "href": "api-reference.html#support",
+    "title": "API Reference",
+    "section": "Support",
+    "text": "Support\nNeed help with the API?\n\nDocumentation\nTutorials\nCommunity Forums\nsupport@example.com",
+    "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
+      "Reference",
+      "API Reference"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "website",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.",
+    "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
+      "Home"
+    ]
+  },
+  {
+    "objectID": "improvements.html",
+    "href": "improvements.html",
+    "title": "Improvements",
+    "section": "",
+    "text": "Improvements\nRemove grey, all white\ntop panel always visible as opposed to scroll down and eventually see it. Like https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html\nRemove all github links in the bottom panel.\nIEP logo always visible in the top right of the panel, decide where an appropriate place for the search icon is.\nOn my monitor, there is too much whitespace on right hand side, dont thave the toc completely left justified, but less whitespace, more main panel, bootstrapped though. Look at https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html they use real estate more efficiently left to right. Feels more grounded than the quarto standard default."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site",
+    "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
+      "About"
+    ]
+  },
+  {
+    "objectID": "documentation.html",
+    "href": "documentation.html",
+    "title": "Documentation",
+    "section": "",
+    "text": "Our platform provides a comprehensive suite of tools for managing your workflows.",
+    "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
+      "Documentation",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "documentation.html#platform-overview",
+    "href": "documentation.html#platform-overview",
+    "title": "Documentation",
+    "section": "",
+    "text": "Our platform provides a comprehensive suite of tools for managing your workflows.",
+    "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
+      "Documentation",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "documentation.html#core-features",
+    "href": "documentation.html#core-features",
+    "title": "Documentation",
+    "section": "Core Features",
+    "text": "Core Features\n\nDashboard Management\nThe dashboard is your central hub for monitoring and controlling all aspects of your account.\n\nKey Metrics\n\n\n\nMetric\nDescription\nUpdate Frequency\n\n\n\n\nActive Users\nCurrent logged-in users\nReal-time\n\n\nSystem Load\nServer utilization\nEvery 5 minutes\n\n\nAPI Calls\nTotal API requests\nHourly\n\n\nStorage Used\nTotal data storage\nDaily\n\n\n\n\n\n\nData Integration\nConnect multiple data sources seamlessly:\n\nDatabases: PostgreSQL, MySQL, MongoDB\nCloud Storage: AWS S3, Google Cloud Storage, Azure Blob\nAPIs: REST, GraphQL, WebSocket\nFiles: CSV, JSON, XML, Parquet\n\n\n\nWorkflow Automation\nCreate automated workflows with our visual builder:\n# Example workflow\ndef process_data(input_data):\n    # Transform data\n    cleaned_data = clean(input_data)\n\n    # Apply business logic\n    processed_data = transform(cleaned_data)\n\n    # Save results\n    save_to_database(processed_data)\n\n    return processed_data",
+    "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
+      "Documentation",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "documentation.html#advanced-configuration",
+    "href": "documentation.html#advanced-configuration",
+    "title": "Documentation",
+    "section": "Advanced Configuration",
+    "text": "Advanced Configuration\n\nCustom Settings\nCustomize your experience with these advanced options:\n\n\n\n\n\n\nImportant\n\n\n\nChanging advanced settings may affect system performance. Proceed with caution.\n\n\n\nPerformance Tuning\n\nCache Size: Adjust memory allocation\nWorker Threads: Configure parallel processing\nTimeout Values: Set request timeout limits\n\n\n\nSecurity Options\n\nIP Whitelisting: Restrict access by IP\nRate Limiting: Control API request rates\nEncryption: Enable end-to-end encryption",
+    "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
+      "Documentation",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "documentation.html#best-practices",
+    "href": "documentation.html#best-practices",
+    "title": "Documentation",
+    "section": "Best Practices",
+    "text": "Best Practices\n\nRegular Backups: Schedule automated backups daily\nMonitor Usage: Keep track of resource consumption\nUpdate Regularly: Stay current with platform updates\nSecurity First: Enable all available security features",
+    "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
+      "Documentation",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "documentation.html#troubleshooting",
+    "href": "documentation.html#troubleshooting",
+    "title": "Documentation",
+    "section": "Troubleshooting",
+    "text": "Troubleshooting\nCommon issues and solutions:\n\nConnection Errors\nIf you experience connection issues:\n\nCheck your network connection\nVerify firewall settings\nEnsure API credentials are valid\n\n\n\nPerformance Issues\nTo optimize performance:\n\nClear browser cache\nReduce concurrent operations\nUpgrade your plan if needed",
+    "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
+      "Documentation",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "documentation.html#additional-resources",
+    "href": "documentation.html#additional-resources",
+    "title": "Documentation",
+    "section": "Additional Resources",
+    "text": "Additional Resources\n\nAPI Reference\nTutorials\nGetting Started",
+    "crumbs": [
+      "<img src=\"iep.png\" style=\"height: 30px; vertical-align: middle;\" alt=\"IEP\">\n",
+      "Documentation",
+      "Overview"
+    ]
   }
 ]

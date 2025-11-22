@@ -1,9 +1,9 @@
 /*-- scss:defaults --*/
 
-// Claude AI color palette
+// Claude AI color palette - pure white
 $claude-orange: #C15F3C;
 $claude-warm-gray: #B1ADA1;
-$claude-cream: #F4F3EE;
+$claude-cream: #FFFFFF;
 $claude-white: #FFFFFF;
 
 // Extended palette
@@ -38,22 +38,30 @@ $code-color: #2C2C2C;
 
 /*-- scss:rules --*/
 
-// Global styling
+// Global styling - all white
 body {
-  background-color: $claude-cream;
+  background-color: $claude-white;
   color: $body-color;
 }
 
 // Navbar
 .navbar {
   background-color: $navbar-bg !important;
-  border-bottom: none;
+  border-bottom: none !important;
+  box-shadow: none !important;
 }
 
 // Sidebar
-.sidebar {
-  background-color: $sidebar-bg;
-  border-right: none;
+.sidebar,
+.sidebar-navigation,
+#quarto-sidebar,
+.sidebar nav,
+#quarto-margin-sidebar,
+.quarto-margin-sidebar {
+  background-color: $sidebar-bg !important;
+  border: none !important;
+  border-right: none !important;
+  box-shadow: none !important;
 
   nav a {
     color: $sidebar-fg;
@@ -71,12 +79,43 @@ body {
   }
 }
 
-// Main content
+// Remove navbar border
+#quarto-header,
+.navbar,
+.navbar-container,
+nav.navbar {
+  border: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+// Force remove all grey borders globally
+body, html, main, div, nav, header, footer, section, aside {
+  border-color: transparent !important;
+}
+
+// Main content - AWS-style wider layout
+.quarto-container {
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
 main {
   background-color: $claude-white;
-  padding: 2rem;
-  border-radius: 8px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  padding: 2rem 3rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+// Better TOC positioning - slightly wider main content
+.page-columns {
+  grid-template-columns: minmax(0, 0.5fr) minmax(0, 1200px) minmax(0, 250px) !important;
+  column-gap: 2rem !important;
+}
+
+// Sidebar width optimization
+.sidebar-navigation {
+  width: 280px;
 }
 
 // Headings
@@ -85,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-  border-bottom: 1px solid rgba($claude-warm-gray, 0.3);
+  border-bottom: none;
   padding-bottom: 0.5rem;
 }
 
@@ -173,13 +212,13 @@ table {
 // Footer
 footer, .page-footer {
   background-color: $claude-white;
-  border-top: 1px solid rgba($claude-warm-gray, 0.2);
+  border-top: none;
   color: $claude-warm-gray;
 }
 
 // TOC
 #TOC {
-  border-left-color: rgba($claude-warm-gray, 0.3);
+  border-left: none;
 
   a {
     color: $sidebar-fg;
@@ -188,4 +227,9 @@ footer, .page-footer {
       color: $claude-orange;
     }
   }
+}
+
+// Hide breadcrumbs
+.breadcrumb, nav[aria-label="breadcrumb"] {
+  display: none !important;
 }
