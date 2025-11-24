@@ -1,6 +1,7 @@
 project:
   type: website
-
+  resources:
+    - robots.txt
 website:
   title: "Documentation Platform"
   bread-crumbs: false
@@ -11,7 +12,7 @@ website:
     search: true
     right:
       - text: |
-          <img src="my-logo.png" style="height: 30px; vertical-align: middle;" alt="My Logo">
+          <img src="/images/my-logo.png" style="height: 30px; vertical-align: middle;" alt="IEP Logo">
         href: "https://example.com"
   page-footer:
     left: "Powered by Your Organization"
@@ -30,9 +31,9 @@ format:
   html:
     grid:
       sidebar-width: 280px
-      body-width: 1100px
-      margin-width: 220px
-      gutter-width: 2rem
+      body-width: 1000px
+      margin-width: 250px
+      gutter-width: 3rem
     theme:
       - cosmo
     css:

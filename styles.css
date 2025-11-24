@@ -376,3 +376,17 @@ body.nav-sidebar #quarto-content {
   padding-top: 0 !important;
 }
 
+/* Add light grey column separators to tables */
+table {
+  border-collapse: collapse !important;
+}
+
+table th,
+table td {
+  border-right: 1px solid #E0E0E0 !important;
+}
+
+table th:last-child,
+table td:last-child {
+  border-right: none !important;
+}
