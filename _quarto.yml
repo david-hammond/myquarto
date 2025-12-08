@@ -32,13 +32,73 @@ format:
     grid:
       sidebar-width: 280px
       body-width: 1000px
-      margin-width: 250px
+      margin-width: 350px
       gutter-width: 3rem
     theme:
-      - cosmo
+      light: cosmo
     css:
       - styles.css
     toc: true
+    toc-depth: 3
+    toc-title: "On this page"
+    code-copy: true
+    code-overflow: wrap
+    smooth-scroll: true
+    anchor-sections: true
+    link-external-icon: true
+    link-external-newwindow: true
+    other-links:
+      - text: "PDF Report"
+        href: "/full-document.pdf"
+        icon: file-pdf
+    format-links: false
 
+    # Modern typography
+    mainfont: "Inter, system-ui, -apple-system, sans-serif"
+    monofont: "JetBrains Mono, Monaco, monospace"
+    fontsize: "16px"
+    linestretch: 1.65
+
+  pdf:
+    documentclass: article
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    colorlinks: true
+    mainfont: "TeX Gyre Heros"
+    sansfont: "TeX Gyre Heros"
+    monofont: "TeX Gyre Cursor"
+    fontsize: 10pt
+    linestretch: 1.4
+    geometry:
+      - top=30mm
+      - bottom=30mm
+      - left=20mm
+      - right=20mm
+      - a4paper
+    include-in-header:
+      text: |
+        \usepackage{fancyhdr}
+        \usepackage{graphicx}
+        \setlength{\headsep}{30pt}
+        \pagestyle{fancy}
+        \fancyhead[L]{\includegraphics[height=1cm]{images/client-logo.png}}
+        \fancyhead[R]{\includegraphics[height=1cm]{images/my-logo.png}}
+        \fancyfoot[C]{\thepage}
+        \fancyfoot[L]{IB Economics: Peace Integration}
+        \fancyfoot[R]{Institute for Economics and Peace}
+        \renewcommand{\headrulewidth}{0.4pt}
+        \fancypagestyle{plain}{
+          \fancyhf{}
+          \fancyhead[L]{\includegraphics[height=1cm]{images/client-logo.png}}
+          \fancyhead[R]{\includegraphics[height=1cm]{images/my-logo.png}}
+          \fancyfoot[C]{\thepage}
+          \fancyfoot[L]{IB Economics: Peace Integration}
+          \fancyfoot[R]{Institute for Economics and Peace}
+          \renewcommand{\headrulewidth}{0.4pt}
+        }
+        \usepackage{float}
+        \floatplacement{table}{H}
+        \setkeys{Gin}{width=0.5\linewidth,keepaspectratio}
 
 

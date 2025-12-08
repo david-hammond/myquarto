@@ -1,392 +1,115 @@
+/* Additional modern styling */
 
-@media (min-width: 1020px) {
-.navbar-brand-container {
-  margin-right: 1em;
-}
-}
-
-
-
-@media (max-width: 1060px) and (min-width: 991.98px) {
-
-#navbarCollapse ul:last-of-type a.nav-link {
-  padding-left: .25em;
-  padding-right: .25em;
-}
-
-.navbar #quarto-search {
-  margin-left: .1em;
-}
-
-.navbar .bi-twitter,
-.navbar .bi-github,
-.navbar .bi-rss
- {
-  font-size: .8em;
-}
-}
-
-
-@media (min-width: 991.98px) {
-body.quarto-light #quarto-header {
-  border-bottom: none !important;
-}
-body.quarto-dark #quarto-header {
-  border-bottom: none !important;
-}
-}
-
-.navbar-brand > img {
-  max-height: 36px;
-}
-
-
-.platform-table td {
-  vertical-align: middle;
-}
-
-.platform-table td > div.sourceCode {
-  margin-top: 0.3rem;
-  margin-bottom: 0.3rem;
-}
-
-
-.document-example {
-  opacity: 0.9;
-  padding: 6px; 
-  font-weight: 500;
-  margin-bottom: 1rem;
-}
-
-.document-example div {
-  padding: 5px;
-}
-
-
-.document-example .citation {
-  color: blue;
-}
-
-.trademark {
-  font-size: 0.6rem;
-  display: inline-block;
-  margin-left: -3px;
-}
-
-.search-attribution {
-  margin-top: 20px;
-  padding-bottom: 20px;
-  height: 40px;
-}
-
-.download-button {
-  margin-top: 1em;
-}
-
-.download-table {
-  margin-bottom: 2em;  
-}
-
-.download-table p {
-  margin-bottom: 0;
-}
-
-.download-table .checksum {
-  color: var(--bs-primary);
-  font-size: .775em;
-  cursor: pointer;
-  padding-top: 4px;
-}
-
-.download-button {
-  display:flex;
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
-
-.download-button .secondary {
-  font-size: .775em;
-  margin-bottom: 0;
-}
-
-.download-button .container {
+/* Align navbar items vertically */
+.navbar-nav .nav-link,
+.navbar-nav .nav-item {
   display: flex;
-  padding-left: 10px;
-  padding-right: 40px;
+  align-items: center;
 }
 
-.download-button .icon-container {
-  fill: white;
-  width: 30px;
-  margin-right: 15px;
-}
-
-iframe.reveal-demo {
+/* Change "Other Formats" heading to "Download" */
+.toc-actions h2::after {
+  content: "Download";
+  position: absolute;
+  background: white;
   width: 100%;
-  height: 350px;
-  outline: none;
+  left: 0;
 }
 
-
-.slide-deck {
-  border: 3px solid #dee2e6;
-  width: 100%;
-  height: 475px;
+.toc-actions h2 {
+  position: relative;
+  color: transparent;
 }
 
-@media only screen and (max-width: 600px) {
- .slide-deck {
-    height: 400px;
-  }
-}
-
-
-@media (max-width: 575px) {
-
-.link-cards .card {
-  margin-bottom: 20px;
-  margin-right: 35px;
-}
-
-}
-
-@media (min-width: 576px) { 
-.link-cards {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.link-cards .card {
-  width: 190px;
-  margin: 0 20px 12px 0;
-}
-
-
-}
-
-
-.link-cards .card {
-  border: none;
-  padding: 0;
-}
-
-.link-cards .card-title h4 {
-  margin-top: 0;
-}
-
-.link-cards .card-title p {
-  margin-bottom: 0;
-}
-
-.link-cards .card-subtitle {
-  margin-bottom: 0.7rem;
-}
-
-.link-cards .card-body {
-  padding: 0.5rem;
-  padding-left: 0.1rem;
-}
-
-.link-cards .card-body ul {
-  margin-bottom: 0;
-  padding-left: 0;
-  list-style-type: none;
-}
-
-.link-cards .card-body ul a {
-  text-decoration: none;
-}
-
-.link-cards .card-body ul li {
-  padding-bottom: 0.2rem;
-}
-
-
-.card .source-code {
-  margin-top: 3px;
-}
-
-.carousel.card {
-  font-size: 16px;
-  padding-top: 2em;
-}
-
-.carousel.card a {
-  text-decoration: none;
-}
-
-.carousel img {
-  width: 70%;
-  margin-bottom: 110px;
-}
-
-.carousel .carousel-control-prev-icon, 
-.carousel .carousel-control-next-icon {
-  margin-bottom: 110px;
-}
-
-
-.gallery-category {
-  column-gap: 10px;
-}
-
-.btn-action-primary {
-  color: white;
-  background-color: #447099;
-}
-
-.btn-action-primary:hover {
-  background-color: #305775;
-  color: white;
-}
-
-.btn-action {
-  min-width: 165px;
-  border-radius: 30px;
-  border: none;
-}
-
-.panel-tabset[data-group="tools-tabset"] .choose-your-tool {
-  max-width: 90px;
-  margin-right: 25px;
-  margin-top: 30px;
-  font-weight: 300;
-  font-size: 1.3rem;
-  text-align: left;
-  vertical-align: center;
-}
-
-.panel-tabset[data-group="tools-tabset"] .tab-content {
-  border: none;
-  padding-left: 5px;
-}
-
-.panel-tabset[data-group="tools-tabset"] .nav-tabs {
-  border-bottom: none;
-}
-
-.panel-tabset[data-group="tools-tabset"] .nav-tabs .nav-link {
-  text-align: center;
-  margin-right: 10px;
-  margin-top: 10px;
-  color: inherit;
-  width: 102px;
-  font-size: 0.8em;
-}
-
-.panel-tabset[data-group="tools-tabset"] .nav-tabs .nav-link, 
-.panel-tabset[data-group="tools-tabset"] .nav-tabs .nav-link.active, 
-.panel-tabset[data-group="tools-tabset"] .nav-tabs .nav-item.show .nav-link {
-  border: 1px solid  rgb(222, 226, 230);
-  border-radius: 10px;
-}
-.panel-tabset[data-group="tools-tabset"] .nav-tabs .nav-link:hover {
-   border-color: rgb(80,146,221);
-   border-width: 1px;
-} 
-
-.panel-tabset[data-group="tools-tabset"] .nav-tabs .nav-link.active, 
-.panel-tabset[data-group="tools-tabset"] .nav-tabs .nav-item.show .nav-link {
-  border-color: rgb(80,146,221);
-  border-width: 2px;
-}
-
-.panel-tabset[data-group="tools-tabset"] .nav-tabs .nav-link img {
-  width: 65px;
-  height: 65px;
-  display: block;
-  margin-bottom: 2px;
-}
-
-/*
-.panel-tabset[data-group="tools-tabset"] .nav-tabs .nav-link {
-  text-align: center;
-  margin-right: 10px;
-  margin-top: 10px;
-  color: inherit;
-  width: 102px;
-  font-size: 0.8em;
-}
- 
-.panel-tabset[data-group="tools-tabset"] .nav-tabs .nav-link img {
-  width: 45px;
-  height: 45px;
-  margin-left: 10px;
-  display: block;
-  margin-bottom: 2px;
-}
-*/
-
-
-.download-text {
-  font-size: 1.1em;
-  font-weight: 500;  
-}
-
-.preview-image-grid {
-  gap: .75em;
-}
-
-.preview-image-grid p {
-  margin-bottom: 0;
-}
-
-.preview-image-label {
-  text-align: center;
-  font-size: .75em;
-  font-weight: 600;
-}
-
-.illustration {
-  border: 1px solid #dee2e6;
-}
-
-span.color-box-container {
-  display: inline-flex;
-  align-items: center; /* Align vertically */
-}
-
-span.color-box {
-  display: inline-block;
-  width: 1em; /* Width of the color box */
-  height: 1em; /* Height of the color box */
-  margin-right: 0.2em; /* Space between box and text */
-  border: 1px solid #000; /* Border color */
-}
-
-/* Remove all grey borders */
-#quarto-sidebar,
-.sidebar,
-.sidebar-navigation,
-#quarto-margin-sidebar {
-  border-right: none !important;
+/* Remove TOC borders */
+#TOC,
+.toc-actions,
+div.page-columns > div:last-child,
+.page-columns .margin-sidebar,
+.margin-sidebar,
+nav[role="doc-toc"],
+aside.margin-sidebar {
   border-left: none !important;
+  border-right: none !important;
   box-shadow: none !important;
 }
 
-/* Remove gap between navbar and content */
-body.nav-sidebar .page-columns,
-body.nav-sidebar #quarto-content {
-  padding-top: 0 !important;
-  margin-top: 0 !important;
-}
-
-#quarto-content main {
-  padding-top: 0 !important;
-}
-
-/* Add light grey column separators to tables */
-table {
-  border-collapse: collapse !important;
-}
-
-table th,
-table td {
-  border-right: 1px solid #E0E0E0 !important;
-}
-
-table th:last-child,
-table td:last-child {
+/* Remove all borders from margin column */
+.page-columns > * {
   border-right: none !important;
+}
+
+/* Table styling with grey column lines */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td,
+table th {
+  border-right: 1px solid #e2e8f0;
+  border-bottom: 1px solid #e2e8f0;
+  padding: 0.75rem;
+}
+
+table td:last-child,
+table th:last-child {
+  border-right: none;
+}
+
+table thead th {
+  border-bottom: 2px solid #cbd5e1;
+  font-weight: 600;
+}
+
+/* Better focus states */
+*:focus-visible {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+  border-radius: 0.25rem;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Better selection colors */
+::selection {
+  background-color: #dbeafe;
+  color: #1e40af;
+}
+
+/* Loading skeleton (optional) */
+.loading-skeleton {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  background: linear-gradient(90deg, #f1f5f9 25%, #e2e8f0 50%, #f1f5f9 75%);
+  background-size: 200% 100%;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* Better image handling */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+/* Print styles */
+@media print {
+  .sidebar,
+  .navbar,
+  .page-footer,
+  .toc-active {
+    display: none;
+  }
 }
